@@ -128,7 +128,7 @@ export const companyDetails = {
   whatsapp: "+91-8870940513",
   whatsappbox:
     "https://api.whatsapp.com/send/?phone=918870940513&text&type=phone_number&app_absent=0",
-  email: "abc@xya.com",
+  email: "support@mindloopsolutions.in",
   address:
     "No 50, Venkateshwara Nagar, 1st street Kavundampalayam, Coimbatore -641030",
 };
