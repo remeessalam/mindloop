@@ -126,7 +126,8 @@ export {
 export const companyDetails = {
   phone: "+91-8870940513",
   whatsapp: "+91-8870940513",
-  whatsappbox: "8870940513",
+  whatsappbox:
+    "https://api.whatsapp.com/send/?phone=918870940513&text&type=phone_number&app_absent=0",
   email: "abc@xya.com",
   address:
     "No 50, Venkateshwara Nagar, 1st street Kavundampalayam, Coimbatore -641030",
