@@ -1,5 +1,5 @@
 import React from "react";
-import { allServices, blockchaindevelopment } from "../../../constant";
+import { allServices, game } from "../../../constant";
 import Testimonials from "../../common/Testimonials";
 
 const GameDevelopment = () => {
@@ -20,7 +20,7 @@ const GameDevelopment = () => {
     <div className="flex flex-col gap-10">
       <img
         data-aos="fade-up"
-        src={blockchaindevelopment}
+        src={game}
         loading="lazy"
         className="h-[25rem] object-cover rounded-3xl object-center"
         alt="web development"

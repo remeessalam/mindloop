@@ -1,5 +1,5 @@
 import React from "react";
-import { allServices, gamedevelopment } from "../../../constant";
+import { allServices, machine } from "../../../constant";
 import Testimonials from "../../common/Testimonials";
 
 const MachineLearning = () => {
@@ -20,7 +20,7 @@ const MachineLearning = () => {
     <div className="flex flex-col gap-10">
       <img
         data-aos="fade-up"
-        src={gamedevelopment}
+        src={machine}
         loading="lazy"
         className="h-[25rem] object-cover rounded-3xl object-center"
         alt="web development"

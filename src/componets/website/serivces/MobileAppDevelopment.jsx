@@ -1,4 +1,4 @@
-import { allServices, serviceaidevelopment } from "../../../constant";
+import { allServices, mobile } from "../../../constant";
 import Testimonials from "../../common/Testimonials";
 
 const MobileAppDevelopment = () => {
@@ -18,7 +18,7 @@ const MobileAppDevelopment = () => {
     <div className="flex flex-col gap-10">
       <img
         data-aos="fade-up"
-        src={serviceaidevelopment}
+        src={mobile}
         loading="lazy"
         className="h-[25rem] object-cover rounded-3xl object-center"
         alt="web development"

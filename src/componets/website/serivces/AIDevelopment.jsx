@@ -1,5 +1,5 @@
 import React from "react";
-import { allServices, serviceaidevelopment } from "../../../constant";
+import { allServices, ai } from "../../../constant";
 import Testimonials from "../../common/Testimonials";
 
 const AIDevelopment = () => {
@@ -21,7 +21,7 @@ const AIDevelopment = () => {
     <div className="flex flex-col gap-10">
       <img
         data-aos="fade-up"
-        src={serviceaidevelopment}
+        src={ai}
         loading="lazy"
         className="h-[25rem] object-cover rounded-3xl object-center"
         alt="web development"

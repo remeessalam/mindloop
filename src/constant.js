@@ -23,15 +23,15 @@ import aboutUsGridImg4 from "./assets/images/aboutus-png4.png";
 import aboutUsGridImg5 from "./assets/images/aboutus-png5.png";
 import profileImg1 from "./assets/images/profileimg-1.jpg";
 import profileImg2 from "./assets/images/profileimg-2.jpg";
-import serviceswebdevelopment from "./assets/images/services/serviceswebdevelopment.jpg";
-import serviceaidevelopment from "./assets/images/services/serviceaidevelopment.jpg";
-import chatbotdevelopment from "./assets/images/services/chatbotdevelopment.jpg";
-import datadevelopment from "./assets/images/services/datadevelopment.jpg";
-import gamedevelopment from "./assets/images/services/gamedevelopment.jpg";
-import blockchaindevelopment from "./assets/images/services/blockchaindevelopment.jpg";
-import machinelearning from "./assets/images/services/machinelearning.jpg";
-import clouddevelopment from "./assets/images/services/clouddevelopment.jpg";
-import rpa from "./assets/images/services/rpa.jpg";
+// import serviceswebdevelopment from "./assets/images/services/serviceswebdevelopment.jpg";
+// import serviceaidevelopment from "./assets/images/services/serviceaidevelopment.jpg";
+// import chatbotdevelopment from "./assets/images/services/chatbotdevelopment.jpg";
+// import datadevelopment from "./assets/images/services/datadevelopment.jpg";
+// import gamedevelopment from "./assets/images/services/gamedevelopment.jpg";
+// import blockchaindevelopment from "./assets/images/services/blockchaindevelopment.jpg";
+// import machinelearning from "./assets/images/services/machinelearning.jpg";
+// import clouddevelopment from "./assets/images/services/clouddevelopment.jpg";
+// import rpa from "./assets/images/services/rpa.jpg";
 import aboutone from "./assets/images/aboutone.jpg";
 import abouttwo from "./assets/images/abouttwo.jpg";
 import aboutthree from "./assets/images/aboutthree.jpg";
@@ -64,6 +64,14 @@ import { TfiLayoutMediaRightAlt } from "react-icons/tfi";
 import { RiCustomSize } from "react-icons/ri";
 import { TbDeviceMobileCode } from "react-icons/tb";
 
+// service images
+import vrar from "./assets/images/services/vrar.jpg";
+import mobile from "./assets/images/services/mobile.jpg";
+import ai from "./assets/images/services/ai.jpg";
+import web from "./assets/images/services/web.jpg";
+import machine from "./assets/images/services/machine.jpg";
+import game from "./assets/images/services/game.jpg";
+
 const Home = lazy(() => import("./pages/website/Home"));
 const Services = lazy(() => import("./pages/website/Services"));
 const ContactUs = lazy(() => import("./pages/website/ContactUs"));
@@ -92,19 +100,26 @@ export {
   aboutUsGridImg3,
   aboutUsGridImg4,
   aboutUsGridImg5,
-  serviceswebdevelopment,
-  serviceaidevelopment,
-  chatbotdevelopment,
-  datadevelopment,
-  gamedevelopment,
-  blockchaindevelopment,
-  machinelearning,
-  clouddevelopment,
-  rpa,
+  // serviceswebdevelopment,
+  // serviceaidevelopment,
+  // chatbotdevelopment,
+  // datadevelopment,
+  // gamedevelopment,
+  // blockchaindevelopment,
+  // machinelearning,
+  // clouddevelopment,
+  // rpa,
   contactusbanner,
   aboutusintroone,
   aboutusintrotwo,
   allbgimage,
+  //service image
+  vrar,
+  mobile,
+  ai,
+  web,
+  machine,
+  game,
 };
 
 // company details
