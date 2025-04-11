@@ -32,7 +32,7 @@ const WebsiteHeader = () => {
 
   return (
     <div
-      className={`pt-6 pb-8 fixed top-0 w-full z-50 text-headertextcolor transition-all duration-300 ${
+      className={`py-3 sm:py-6 fixed top-0 w-full z-50 text-headertextcolor transition-all duration-300 ${
         isScrolled
           ? "bg-black/10 bg-opacity-60 backdrop-blur-md text-white"
           : "bg-white/60 text-black"

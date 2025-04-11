@@ -11,7 +11,11 @@ const Thankyou = () => {
         <div className="wrapper flex justify-between items-center gap-10">
           <div className="flex justify-between items-center gap-20 w-full pl-[1rem] lg:pl-0">
             <Link to="/" className="cursor-pointer relative">
-              <img src={logoImg} className="h-[4rem] md:h-[5rem] " alt="logo" />
+              <img
+                src={logoImg}
+                className="h-[2rem] md:h-[2.75rem] "
+                alt="logo"
+              />
               {/* <small className="text-sm font-light text-[#CAA562] absolute bottom-0 left-1/2 -translate-x-1/2">
                 Parvesha
               </small> */}
@@ -29,7 +33,7 @@ const Thankyou = () => {
           Home
         </Link>
       </div>
-      <div className="py-14 bg-[#2e2e45]">
+      <div className="py-14 bg-gray-400">
         <div className="wrapper text-white">
           <div className="flex md:flex-row flex-col justify-between gap-10">
             <div className="flex flex-col items-center">

@@ -160,31 +160,31 @@ export const faqs = [
     id: 1,
     question: "How do I get started?",
     answer:
-      "Simply schedule a free consultation with us to discuss your idea. We will outline how we can help turn your vision into a successful AI company.",
+      "You can get started by scheduling a free consultation with our team. We'll understand your requirements, explore potential solutions, and guide you through how our AI and ML services can bring your vision to life.",
   },
   {
     id: 2,
-    question: "Do I need technical knowledge to start an AI company?",
+    question: "Do I need technical knowledge to use your AI or ML services?",
     answer:
-      "No, you don’t need technical expertise. Our team of AI experts will handle the technical aspects while you focus on the business vision and strategy.",
+      "Not at all. Our team of experts takes care of the technical complexities—from algorithm design to deployment—so you can focus on your core business goals while we build smart, scalable solutions for you.",
   },
   {
     id: 3,
-    question: "How long does it take to launch an AI product?",
+    question: "How long does it take to build an ML or AI solution?",
     answer:
-      "The timeline varies, but typically it takes 3 to 6 months to develop a Minimum Viable Product (MVP) and begin the launch process.",
+      "Depending on the complexity, a basic solution or MVP can be delivered in 3 to 6 months. We prioritize scalable, iterative development so your system continues to evolve and improve over time.",
   },
   {
     id: 4,
-    question: "How do I know if my AI idea is feasible?",
+    question: "How do I know if Machine Learning is right for my business?",
     answer:
-      "We offer an initial consultation to evaluate your idea’s feasibility, its market potential, and provide feedback on how to refine it for success.",
+      "During our initial consultation, we assess your use case, available data, and business goals to determine whether ML or AI solutions will provide value. We then suggest the best approach tailored to your needs.",
   },
   {
     id: 5,
-    question: "What kind of AI solutions do you offer?",
+    question: "What kind of Machine Learning solutions do you offer?",
     answer:
-      "We provide a wide range of AI solutions, including predictive analytics, natural language processing, computer vision, and custom AI model development tailored to your business needs.",
+      "We offer custom ML solutions including predictive analytics, recommendation systems, computer vision, natural language processing, and model optimization. Our goal is to help businesses automate, scale, and make smarter decisions using data.",
   },
 ];
 
@@ -324,27 +324,27 @@ export const whyChooseUsContent = [
   {
     img: <BiBrain className="w-6 h-6" />,
     title: "Transforming Vision into Reality",
-    desc: "We collaborate closely to understand your vision and turn it into innovative digital solutions that exceed expectations, tailored specifically to your business needs.",
+    desc: "Whether it's building intelligent machine learning models or crafting immersive gaming experiences, we bring your ideas to life with precision and creativity tailored to your business goals.",
   },
   {
     img: <BiRocket className="w-6 h-6" />,
     title: "Empowering Businesses with Technology",
-    desc: "Our expertise in cutting-edge technologies ensures that every solution we deliver helps your business thrive in today’s competitive landscape.",
+    desc: "Leveraging the latest in AI, ML, and game development technologies, we deliver high-performance, scalable solutions that drive real impact and set your brand apart.",
   },
   {
     img: <BiBulb className="w-6 h-6" />,
     title: "Driving Efficiency with Innovation",
-    desc: "From automating processes to building intelligent solutions, we bring innovation to the forefront, enabling your business to operate smarter and more efficiently.",
+    desc: "We automate processes, enhance interactivity, and infuse intelligence into systems—whether through dynamic games or data-driven applications—to streamline operations and enhance user engagement.",
   },
   {
     img: <GoGraph className="w-6 h-6" />,
     title: "Data-Driven Decision Making",
-    desc: "We provide insightful analytics and intelligence to help you make informed decisions, uncover opportunities, and stay ahead in your industry.",
+    desc: "Through machine learning and advanced analytics, we uncover actionable insights that fuel smarter strategies, while game telemetry helps fine-tune experiences and boost retention.",
   },
   {
     img: <SlBadge className="w-6 h-6" />,
     title: "Commitment to Excellence",
-    desc: "We are dedicated to delivering exceptional service and long-term partnerships, supporting your journey from idea to execution and beyond.",
+    desc: "From the first consultation to final delivery, we prioritize quality, performance, and long-term success—ensuring every ML solution or game we build meets the highest standards.",
   },
 ];
 
@@ -354,63 +354,63 @@ export const reviews = [
     profileImg: profileImg2,
     name: "Mark S.",
     role: "Founder of UrbanTrends",
-    desc: "“Partnering with [you company name] was a breath of fresh air. They not only brought our mobile app and website ideas to life but also helped us think through user experience details that made a huge impact. They truly understood our vision and delivered a solution that has taken our online presence to the next level.”",
+    desc: "“Partnering with [your company name] was a breath of fresh air. They brought our mobile app and website ideas to life with precision, while enhancing the user experience in ways we hadn’t imagined. Their creativity and technical skills elevated our digital presence beyond expectations.”",
   },
   {
     id: 2,
     profileImg: profileImg1,
     name: "Lisa T.",
     role: "Operations Manager at HealthPro Analytics",
-    desc: "“The AI solutions from [you company name] have completely transformed our operations. Their team helped us automate data processes, which has freed up our team for higher-level tasks. The insights and predictive analytics they’ve provided have given us a competitive edge we didn’t think was possible.”",
+    desc: "“The machine learning solutions from [your company name] have completely transformed our data operations. Their automation and predictive insights helped us streamline workflows and improve decision-making across the board.”",
   },
   {
     id: 3,
     profileImg: profileImg2,
     name: "John P.",
     role: "Customer Service Lead at QuickResponse",
-    desc: "“The chatbot that [you company name] developed for us has been a game-changer. It’s seamless, efficient, and our customers are happier than ever with the faster response times. We’re saving so much time on routine inquiries, and it’s made a noticeable difference in customer satisfaction.”",
+    desc: "“The chatbot developed by [your company name] has been a complete game-changer for our support team. It's fast, reliable, and has drastically improved our customer experience. We've seen a noticeable drop in response times and a rise in customer satisfaction.”",
   },
   {
     id: 4,
     profileImg: profileImg1,
     name: "Samantha K.",
     role: "CEO at Retail Innovations",
-    desc: "“Working with [you company name] on our data analytics strategy was one of our best investments. Their team transformed our raw data into meaningful insights that have guided our recent business decisions. We’ve already seen measurable results, and we’re excited to keep building on this foundation.”",
+    desc: "“Our collaboration with [your company name] on data analytics was incredibly insightful. They helped us turn scattered data into actionable intelligence, which directly influenced our strategic moves and improved outcomes.”",
   },
   {
     id: 5,
     profileImg: profileImg2,
     name: "Alex R.",
     role: "Product Manager at PlaySphere",
-    desc: "“The gaming app [you company name] created exceeded all our expectations. From design to development, every aspect was handled with incredible attention to detail. Our players are hooked, and we couldn’t have achieved this level of engagement without their expertise!”",
+    desc: "“The game development services from [your company name] were outstanding. From concept to launch, they handled every detail with precision. The game’s graphics, performance, and player engagement have exceeded all expectations.”",
   },
   {
     id: 6,
     profileImg: profileImg1,
     name: "Monica B.",
-    role: "CTO at FinSecure",
-    desc: "“We were initially overwhelmed by the complexity of blockchain, but [you company name] made it easy to understand and implement. Their team developed a secure blockchain solution tailored to our needs, and it’s given us and our clients peace of mind in every transaction.”",
+    role: "CTO at BrightEdge Media",
+    desc: "“We worked with [your company name] on a full-stack web development project, and the outcome was flawless. Their team blended speed, functionality, and sleek design to deliver a platform our users love.”",
   },
   {
     id: 7,
     profileImg: profileImg2,
     name: "Daniel L.",
     role: "Head of Product at InsightIQ",
-    desc: "“Thanks to [you company name], we’ve integrated machine learning into our products, giving us a new level of insight into customer behavior. Their team’s knowledge and hands-on approach made the entire process smooth and rewarding. It’s changed the way we operate.”",
+    desc: "“Integrating machine learning into our analytics platform with [your company name] has revolutionized the way we understand user behavior. Their proactive, hands-on approach made the process both smooth and impactful.”",
   },
   {
     id: 8,
     profileImg: profileImg1,
     name: "Claire J.",
     role: "IT Director at GlobalTech Solutions",
-    desc: "“The cloud migration and management services we received from [you company name] have been invaluable. They took us from a traditional setup to a flexible cloud environment, allowing us to scale easily. It’s been a huge boost for our team’s productivity.”",
+    desc: "“The cloud services from [your company name] helped us migrate seamlessly and scale operations effortlessly. Their management and support have significantly boosted our infrastructure flexibility and team productivity.”",
   },
   {
     id: 9,
     profileImg: profileImg2,
     name: "Evan W.",
     role: "Operations Director at Streamline Logistics",
-    desc: "“Implementing RPA with [you company name] has transformed our day-to-day operations. Tasks that used to be time-consuming are now handled quickly and accurately, giving our team more freedom to focus on strategic initiatives. The impact on efficiency is undeniable.”",
+    desc: "“Our efficiency skyrocketed after implementing RPA solutions from [your company name]. Routine tasks that took hours are now automated, giving our team the bandwidth to focus on strategic priorities.”",
   },
 ];
 
@@ -564,35 +564,35 @@ export const aboutUsItems = [
   {
     title: "Innovation at Heart",
     description:
-      "At [you company name], innovation is at the core of everything we do. We continuously embrace emerging technologies and industry trends to craft future-ready solutions that redefine possibilities.",
+      "At [your company name], innovation fuels everything we build. From cutting-edge AI to immersive game development and cloud-native solutions, we leverage the latest technologies to craft impactful, future-ready digital products.",
     image: aboutone,
     gradient: "from-primary/60 to-primary/80",
   },
   {
     title: "Client-Centric Approach",
     description:
-      "We adopt a personalized approach, customizing each project to align seamlessly with your specific requirements. We collaborate closely with our clients, fostering long-term partnerships built on trust, transparency, and shared success.",
+      "We prioritize your vision by tailoring every project to your goals—whether it’s developing an intelligent chatbot, streamlining operations with RPA, or launching a next-gen mobile app. Our collaborative style ensures long-term partnerships built on trust and results.",
     image: abouttwo,
     gradient: "from-secondary/60 to-secondary/80",
   },
   {
     title: "Commitment to Excellence",
     description:
-      "Quality and reliability form the foundation of our work. We take pride in crafting world-class digital solutions that are robust, scalable, and secure. Every project undergoes thorough quality assurance.",
+      "Excellence is our standard. We deliver robust, scalable, and secure solutions—be it a machine learning model, a data analytics platform, or a high-performance web application. Every project is backed by rigorous testing and industry-best practices.",
     image: aboutthree,
     gradient: "from-primary/60 to-primary/80",
   },
   {
     title: "Innovation with Purpose",
     description:
-      "We believe that technology is only as valuable as the purpose it serves. Our mission is to harness the power of technology to create meaningful impacts—streamlining operations, elevating customer experiences, and driving business growth.",
+      "We believe that technology should solve real-world challenges. From improving user experience through smart automation to building interactive games that engage global audiences, our focus is on driving meaningful, measurable impact.",
     image: aboutfour,
     gradient: "from-secondary/60 to-secondary/80",
   },
   {
-    title: "End to End Solutions",
+    title: "End-to-End Digital Solutions",
     description:
-      "We provide a comprehensive range of services, ensuring end-to-end support from initial concept to deployment and beyond. Our aim is to be your trusted partner throughout your digital journey.",
+      "We support your entire digital journey—from idea validation and UI/UX design to deployment, cloud management, and post-launch optimization. Whether you're scaling a product or starting from scratch, we’ve got you covered at every stage.",
     image: aboutfive,
     gradient: "from-primary/60 to-primary/80",
   },

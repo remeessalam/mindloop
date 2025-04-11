@@ -18,7 +18,6 @@ import { Link } from "react-router-dom";
 import { IoIosArrowForward } from "react-icons/io";
 import Credibility from "../../componets/common/Credibility";
 import ReactPlayer from "react-player";
-import servicepagebanner from "../../assets/videos/servicepagebanner.mp4";
 const AboutUs = () => {
   return (
     <>

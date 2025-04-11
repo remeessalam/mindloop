@@ -39,7 +39,7 @@ const LandingHeader = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 300) {
+      if (window.scrollY > 700) {
         setIsScrolled(true);
       } else {
         setIsScrolled(false);
@@ -54,10 +54,10 @@ const LandingHeader = () => {
 
   return (
     <div
-      className={`pt-6 pb-8 fixed top-0 w-full   z-50  ${
+      className={`py-3 sm:py-6 fixed top-0 w-full   z-50  ${
         isScrolled
           ? "bg-black/10 bg-opacity-60 backdrop-blur-md text-white"
-          : "bg-transparent text-white"
+          : "bg-white/60 text-white"
       }`}
     >
       <div className="wrapper flex justify-between items-center gap-10">
