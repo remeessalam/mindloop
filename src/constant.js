@@ -124,11 +124,12 @@ export {
 
 // company details
 export const companyDetails = {
-  phone: "+91-9000000",
-  whatsapp: "+91-900000",
-  whatsappbox: "90000000",
+  phone: "+91-8870940513",
+  whatsapp: "+91-8870940513",
+  whatsappbox: "8870940513",
   email: "abc@xya.com",
-  address: "[your company address]",
+  address:
+    "No 50, Venkateshwara Nagar, 1st street Kavundampalayam, Coimbatore -641030",
 };
 
 // website routes
@@ -354,63 +355,63 @@ export const reviews = [
     profileImg: profileImg2,
     name: "Mark S.",
     role: "Founder of UrbanTrends",
-    desc: "“Partnering with [your company name] was a breath of fresh air. They brought our mobile app and website ideas to life with precision, while enhancing the user experience in ways we hadn’t imagined. Their creativity and technical skills elevated our digital presence beyond expectations.”",
+    desc: "“Partnering with Mindloop Solutions LLP was a breath of fresh air. They brought our mobile app and website ideas to life with precision, while enhancing the user experience in ways we hadn’t imagined. Their creativity and technical skills elevated our digital presence beyond expectations.”",
   },
   {
     id: 2,
     profileImg: profileImg1,
     name: "Lisa T.",
     role: "Operations Manager at HealthPro Analytics",
-    desc: "“The machine learning solutions from [your company name] have completely transformed our data operations. Their automation and predictive insights helped us streamline workflows and improve decision-making across the board.”",
+    desc: "“The machine learning solutions from Mindloop Solutions LLP have completely transformed our data operations. Their automation and predictive insights helped us streamline workflows and improve decision-making across the board.”",
   },
   {
     id: 3,
     profileImg: profileImg2,
     name: "John P.",
     role: "Customer Service Lead at QuickResponse",
-    desc: "“The chatbot developed by [your company name] has been a complete game-changer for our support team. It's fast, reliable, and has drastically improved our customer experience. We've seen a noticeable drop in response times and a rise in customer satisfaction.”",
+    desc: "“The chatbot developed by Mindloop Solutions LLP has been a complete game-changer for our support team. It's fast, reliable, and has drastically improved our customer experience. We've seen a noticeable drop in response times and a rise in customer satisfaction.”",
   },
   {
     id: 4,
     profileImg: profileImg1,
     name: "Samantha K.",
     role: "CEO at Retail Innovations",
-    desc: "“Our collaboration with [your company name] on data analytics was incredibly insightful. They helped us turn scattered data into actionable intelligence, which directly influenced our strategic moves and improved outcomes.”",
+    desc: "“Our collaboration with Mindloop Solutions LLP on data analytics was incredibly insightful. They helped us turn scattered data into actionable intelligence, which directly influenced our strategic moves and improved outcomes.”",
   },
   {
     id: 5,
     profileImg: profileImg2,
     name: "Alex R.",
     role: "Product Manager at PlaySphere",
-    desc: "“The game development services from [your company name] were outstanding. From concept to launch, they handled every detail with precision. The game’s graphics, performance, and player engagement have exceeded all expectations.”",
+    desc: "“The game development services from Mindloop Solutions LLP were outstanding. From concept to launch, they handled every detail with precision. The game’s graphics, performance, and player engagement have exceeded all expectations.”",
   },
   {
     id: 6,
     profileImg: profileImg1,
     name: "Monica B.",
     role: "CTO at BrightEdge Media",
-    desc: "“We worked with [your company name] on a full-stack web development project, and the outcome was flawless. Their team blended speed, functionality, and sleek design to deliver a platform our users love.”",
+    desc: "“We worked with Mindloop Solutions LLP on a full-stack web development project, and the outcome was flawless. Their team blended speed, functionality, and sleek design to deliver a platform our users love.”",
   },
   {
     id: 7,
     profileImg: profileImg2,
     name: "Daniel L.",
     role: "Head of Product at InsightIQ",
-    desc: "“Integrating machine learning into our analytics platform with [your company name] has revolutionized the way we understand user behavior. Their proactive, hands-on approach made the process both smooth and impactful.”",
+    desc: "“Integrating machine learning into our analytics platform with Mindloop Solutions LLP has revolutionized the way we understand user behavior. Their proactive, hands-on approach made the process both smooth and impactful.”",
   },
   {
     id: 8,
     profileImg: profileImg1,
     name: "Claire J.",
     role: "IT Director at GlobalTech Solutions",
-    desc: "“The cloud services from [your company name] helped us migrate seamlessly and scale operations effortlessly. Their management and support have significantly boosted our infrastructure flexibility and team productivity.”",
+    desc: "“The cloud services from Mindloop Solutions LLP helped us migrate seamlessly and scale operations effortlessly. Their management and support have significantly boosted our infrastructure flexibility and team productivity.”",
   },
   {
     id: 9,
     profileImg: profileImg2,
     name: "Evan W.",
     role: "Operations Director at Streamline Logistics",
-    desc: "“Our efficiency skyrocketed after implementing RPA solutions from [your company name]. Routine tasks that took hours are now automated, giving our team the bandwidth to focus on strategic priorities.”",
+    desc: "“Our efficiency skyrocketed after implementing RPA solutions from Mindloop Solutions LLP. Routine tasks that took hours are now automated, giving our team the bandwidth to focus on strategic priorities.”",
   },
 ];
 
@@ -564,7 +565,7 @@ export const aboutUsItems = [
   {
     title: "Innovation at Heart",
     description:
-      "At [your company name], innovation fuels everything we build. From cutting-edge AI to immersive game development and cloud-native solutions, we leverage the latest technologies to craft impactful, future-ready digital products.",
+      "At Mindloop Solutions LLP, innovation fuels everything we build. From cutting-edge AI to immersive game development and cloud-native solutions, we leverage the latest technologies to craft impactful, future-ready digital products.",
     image: aboutone,
     gradient: "from-primary/60 to-primary/80",
   },

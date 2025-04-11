@@ -78,7 +78,7 @@ const WhyChooseUs = () => {
             data-aos="fade-up"
             className="desc max-w-[40rem] mx-auto"
           >
-            At [you company name], we’re dedicated to delivering AI-powered
+            At Mindloop Solutions LLP, we’re dedicated to delivering AI-powered
             solutions that are custom-fit to your business needs. Our team is
             passionate about innovation and collaborates closely with you to
             understand your vision, transforming it into a digital reality that
@@ -111,7 +111,7 @@ const WhyChooseUs = () => {
                   />
                 </div>
                 <p className="desc text-primarytextcolor text-start mt-3">
-                  A reputable IT company, [you company name] specializes in
+                  A reputable IT company, Mindloop Solutions LLP specializes in
                   crafting innovative, tailored solutions that align with your
                   business goals.
                 </p>
