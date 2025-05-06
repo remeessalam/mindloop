@@ -8,10 +8,13 @@ import { Link, useLocation } from "react-router-dom";
 const WebsiteHeader = () => {
   const [isOpen, setIsOpen] = useState(false);
   const { pathname } = useLocation();
+  const [isServicesOpen, setIsServicesOpen] = useState(false);
+  const location = useLocation();
 
   const toggleDrawer = () => {
     setIsOpen(!isOpen);
   };
+  // const isActive = (path) => location.pathname === path;
 
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -29,7 +32,7 @@ const WebsiteHeader = () => {
     // Cleanup the event listener on component unmount
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
+  console.log(routes, "asdfasdfadsfsd");
   return (
     <div
       className={`py-3 sm:py-6 fixed top-0 w-full z-50 text-headertextcolor transition-all duration-300 ${
@@ -48,17 +51,54 @@ const WebsiteHeader = () => {
             />
           </Link>
           <div className="lg:flex mt-7 items-center gap-10 hidden">
-            {routes.map(({ name, path }) => (
-              <Link
-                to={`${path}`}
-                className={`link text-sm ${
-                  pathname === `${path}` && "active-link"
-                }`}
-                key={path}
-              >
-                {name}
-              </Link>
-            ))}
+            {routes.map((obj) =>
+              obj.name === "Services" ? (
+                <div
+                  key={obj.name}
+                  className="relative"
+                  onMouseEnter={() => setIsServicesOpen(true)}
+                  onMouseLeave={() => setIsServicesOpen(false)}
+                >
+                  <Link
+                    to={`${obj.path}`}
+                    className={`link text-sm ${
+                      pathname === `${obj.path}` && "active-link"
+                    }`}
+                  >
+                    {obj.name}
+                    {/* {obj.children[0].name} */}
+                  </Link>
+
+                  <div
+                    className={`absolute top-full left-0 mt-5 bg-white text-black shadow-md rounded-md py-2 min-w-48 z-50 overflow-hidden transition-all duration-300 ease-in-out ${
+                      isServicesOpen
+                        ? "max-h-56 opacity-100"
+                        : "max-h-0 opacity-0 py-0"
+                    }`}
+                  >
+                    {obj.children.map((child) => (
+                      <Link
+                        key={child.link}
+                        to={child.link}
+                        className="block px-4 py-2 text-sm hover:bg-gray-100"
+                      >
+                        {child.name}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              ) : (
+                <Link
+                  to={`${obj.path}`}
+                  className={`link text-sm ${
+                    pathname === `${obj.path}` && "active-link"
+                  }`}
+                  key={obj.path}
+                >
+                  {obj.name}
+                </Link>
+              )
+            )}
             <Link className={`link text-sm `}>Blogs</Link>
           </div>
         </div>
@@ -77,16 +117,40 @@ const WebsiteHeader = () => {
             </button>
           </div>
           <div className="flex flex-col gap-6">
-            {routes.map(({ name, path }) => (
-              <Link
-                onClick={() => setIsOpen(false)}
-                key={path}
-                className="text-3xl text-white font-medium transition-colors duration-300 link"
-                to={path}
-              >
-                {name}
-              </Link>
-            ))}
+            {routes.map((obj) =>
+              obj.name === "Services" ? (
+                <Link>
+                  {" "}
+                  <Link
+                    key={obj.name}
+                    to={obj.link}
+                    onClick={() => setIsOpen(false)}
+                    className="text-xl text-white font-medium transition-colors duration-300 link"
+                  >
+                    {obj.name}
+                    <div>
+                      {/* <Link>Web Development</Link> */}
+                      {obj.children.map((child) => (
+                        <div className="text-white ml-4 py-2">
+                          <Link to={child.path} className="text-sm">
+                            {child.name}
+                          </Link>
+                        </div>
+                      ))}
+                    </div>
+                  </Link>
+                </Link>
+              ) : (
+                <Link
+                  onClick={() => setIsOpen(false)}
+                  key={obj.name}
+                  className="text-xl text-white font-medium transition-colors duration-300 link"
+                  to={obj.path}
+                >
+                  {obj.name}
+                </Link>
+              )
+            )}
           </div>
         </Drawer>
         <div
