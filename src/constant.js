@@ -71,6 +71,7 @@ import ai from "./assets/images/services/ai.jpg";
 import web from "./assets/images/services/web.jpg";
 import machine from "./assets/images/services/machine.jpg";
 import game from "./assets/images/services/game.jpg";
+import Blogs from "./pages/website/Blogs";
 
 const Home = lazy(() => import("./pages/website/Home"));
 const Services = lazy(() => import("./pages/website/Services"));
@@ -159,6 +160,11 @@ export const routes = [
     name: "About Us",
     path: "/about-us",
     component: <AboutUs />,
+  },
+  {
+    name: "Blogs",
+    path: "/blogs",
+    component: <Blogs />,
   },
   {
     name: "Contact Us",

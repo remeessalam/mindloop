@@ -38,7 +38,7 @@ const WebsiteHeader = () => {
       className={`py-3 sm:py-6 fixed top-0 w-full z-50 text-headertextcolor transition-all duration-300 ${
         isScrolled
           ? "bg-black/10 bg-opacity-60 backdrop-blur-md text-white"
-          : "bg-white/60 text-black"
+          : "bg-white/60 text-black backdrop-blur-md"
       }`}
     >
       <div className="wrapper flex justify-between items-center gap-10">
@@ -78,8 +78,8 @@ const WebsiteHeader = () => {
                   >
                     {obj.children.map((child) => (
                       <Link
-                        key={child.link}
-                        to={child.link}
+                        key={child.path}
+                        to={child.path}
                         className="block px-4 py-2 text-sm hover:bg-gray-100"
                       >
                         {child.name}
@@ -99,7 +99,7 @@ const WebsiteHeader = () => {
                 </Link>
               )
             )}
-            <Link className={`link text-sm `}>Blogs</Link>
+            {/* <Link className={`link text-sm `}>Blogs</Link> */}
           </div>
         </div>
         <Drawer
